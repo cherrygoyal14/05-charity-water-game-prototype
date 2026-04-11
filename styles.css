@@ -13,3 +13,21 @@ Secondary Colors:
 - Pink:       #F16061
 
 */
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#gameArea {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #FFC907;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+}
