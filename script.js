@@ -1,5 +1,5 @@
-// Log a message to the console to ensure the script is linked correctly
-console.log('JavaScript file is linked correctly.');
+console.log("JS loaded");
+
 let score = 0;
 let timeLeft = 30;
 
@@ -12,16 +12,8 @@ gameArea.addEventListener("click", () => {
   score++;
   scoreDisplay.textContent = score;
 
-  // Visual feedback
-  gameArea.style.backgroundColor = "#ffd700";
-
-  setTimeout(() => {
-    gameArea.style.backgroundColor = "";
-  }, 200);
-
-  // Win condition
   if (score >= 10) {
-    alert("🎉 You win!");
+    alert("You win!");
   }
 });
 
@@ -36,7 +28,7 @@ let timer = setInterval(() => {
   }
 }, 1000);
 
-// Reset function
+// Reset
 function resetGame() {
   score = 0;
   timeLeft = 30;
